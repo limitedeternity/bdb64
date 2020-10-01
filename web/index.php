@@ -18,6 +18,8 @@
         echo "<h2>" . htmlspecialchars(base64_decode($_GET["decode"])) . "</h2>";
       } elseif (isset($_GET["encode"])) {
         echo "<h2>" . htmlspecialchars(base64_encode($_GET["encode"])) . "</h2>";
+      } else {
+        echo "<h2>RTFM!!</h2>";
       }
   ?></body>
 </html>
