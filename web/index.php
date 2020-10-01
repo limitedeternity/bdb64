@@ -7,7 +7,7 @@
     <title>bdb64</title>
     <style>
       h2 {
-        font-size:3vw;
+        font-size: 4vw;
         word-wrap: break-word;
       }
     </style>
